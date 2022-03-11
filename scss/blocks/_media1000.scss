@@ -1,0 +1,109 @@
+@media only screen and (max-width:1000px) {
+  .comfort__heading {
+      font-size: 30px;
+      margin-bottom: 50px;
+  }  
+
+  .comfort__list__img {
+    width: 389px;
+    height: 265px;
+  }
+
+  .comfort__block__title {
+    font-size: 25px;
+  }
+
+  .comfort__block__info {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .comfort__container {
+      max-width: 1000px;
+      padding: 0 19px;
+  }
+  .comfort__list {
+      gap: 50px;
+  }
+
+//   our section
+
+.our__heading {
+    margin: 46px auto 50px;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.our__title {
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.our__info {
+    font-size: 20px;
+    line-height: 21px;
+}
+
+
+// why section
+
+.why {
+  margin-bottom: 140px;
+}
+
+
+
+.why__list {
+  display: flex;
+  justify-content: space-between;
+  // align-items: center;
+  gap: 26px;
+}
+.why__list__item {
+  padding: 45px 4px 11px 24px;
+}
+
+.why__list__item0 {
+  background-image: url('./../images/01why.png');
+  background-position: 105px 106px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.why__list__item1 {
+  background-color: #B7ECB1;
+  background-image: url('./../images/02why.png');
+  background-position: 61px 55px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.why__list__item2 {
+  background-image: url('./../images/03why.png');
+  background-position: 65px 104px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.why__header {
+  font-size: 30px;
+  line-height: 28px;
+}
+
+.why__title {
+
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.why__title1 {
+  margin-bottom: 10px;
+}
+
+.why__info {
+  max-width: 275px;
+  font-size: 15px;
+  line-height: 17px;
+}
+
+}

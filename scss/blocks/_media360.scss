@@ -1,0 +1,138 @@
+@media only screen and (max-width:360px) {
+    .comfort__heading {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 40px;
+        max-width: 209px;
+    }  
+  
+    .comfort__list__img {
+        width: 300px;
+        height: 156px;
+        order: -1;
+    }
+
+    .comfort__list__item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comfort__block {
+        order: 1;
+    }
+  
+    .comfort__block__title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+  
+    .comfort__block__info {
+        font-size: 15px;
+        line-height: 20px;
+    }
+  
+    .comfort__container {
+        // width: 100%;
+        max-width: 360px;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+
+    .comfort__list {
+        gap: 40px;
+    }
+
+    // our section
+
+    .our__list {
+        padding: 30px 46px;
+        // max-width: 360px;
+
+
+    }
+
+    .our__list__item {
+        display: flex;
+    }
+
+    .our__heading {
+        margin: 46px auto 17px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    
+    .our__title {
+        margin-bottom: 9px;
+        font-size: 30px;
+        line-height: 45px;
+    }
+    
+    .our__info {
+        font-size: 15px;
+    }
+
+            
+// why section
+
+.why {
+    margin-bottom: 100px;
+  }
+  
+  
+  
+  .why__list {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    gap: 30px;
+  }
+  .why__list__item {
+    padding: 40px 1px 31px 20px;
+    box-shadow: 0px 10px 10px #F0F0F0;
+  }
+  
+  .why__list__item0 {
+    background-image: url('./../images/wwhy01.png');
+    background-position: center 10px;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  .why__list__item1 {
+    background-color: #B7ECB1;
+    background-image: url('./../images/wwhy02.png');
+    background-position: center 10px;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  .why__list__item2 {
+    background-image: url('./../images/wwhy03.png');
+    background-position: center 10px;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  .why__header {
+      margin: 0 auto;
+    font-size: 25px;
+    line-height: 28px;
+  }
+  
+  .why__title {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 9px;
+  }
+  
+  .why__title1 {
+    margin-bottom: 10px;
+  }
+  
+  .why__info {
+      margin-bottom: 30px;
+    max-width: 421px;
+    font-size: 15px;
+    line-height: 17px;
+  }
+  }

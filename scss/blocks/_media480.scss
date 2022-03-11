@@ -1,0 +1,137 @@
+@media only screen and (max-width:480px) {
+    .comfort__heading {
+        font-size: 20px;
+        margin-bottom: 40px;
+        width: 100%;
+        height: 100%;
+    }  
+  
+    .comfort__list__img {
+        width: 100%;
+        width: 400px;
+        height: 156px;
+        order: -1;
+    }
+
+    .comfort__list__item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comfort__block {
+        order: 1;
+    }
+  
+    .comfort__block__title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+  
+    .comfort__block__info {
+        font-size: 15px;
+        line-height: 20px;
+    }
+  
+    .comfort__container {
+        // width: 100%;
+        max-width: 480px;
+        padding: 0 40px;
+        margin: 0 auto;
+    }
+
+    .comfort__list {
+        gap: 56px;
+    }
+
+        //   our section
+
+        .our__list {
+            padding: 30px 46px;
+            max-width: 360px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .our__heading {
+            margin: 46px auto 50px;
+            font-size: 20px;
+            line-height: 40px;
+        }
+        
+        .our__title {
+            margin-bottom: 9px;
+            font-size: 31px;
+            line-height: 45px;
+        }
+        
+        .our__info {
+            font-size: 15px;
+            line-height: 19px;
+        }
+
+
+        
+// why section
+
+.why {
+    margin-bottom: 100px;
+  }
+  
+  
+  
+  .why__list {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    gap: 30px;
+  }
+  .why__list__item {
+    padding: 45px 4px 11px 106px;
+    box-shadow: 0px 10px 10px #F0F0F0;
+  }
+  
+  .why__list__item0 {
+    background-image: url('./../images/why01.png');
+    background-position: left  bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  .why__list__item1 {
+    background-color: #B7ECB1;
+    background-image: url('./../images/why02.png');
+    background-position: left  bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  .why__list__item2 {
+    background-image: url('./../images/why03.png');
+    background-position: left  bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  .why__header {
+    font-size: 25px;
+    line-height: 28px;
+  }
+  
+  .why__title {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 9px;
+  }
+  
+  .why__title1 {
+    margin-bottom: 10px;
+  }
+  
+  .why__info {
+      margin-bottom: 30px;
+    max-width: 421px;
+    font-size: 15px;
+    line-height: 17px;
+  }
+  }
