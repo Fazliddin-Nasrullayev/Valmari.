@@ -1,0 +1,35 @@
+.doctors__heading {
+    text-align: center;
+    margin-bottom: 75px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 28px;
+    text-align: center;
+    color: #424242;
+}
+
+.doctors__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    // align-items: center;
+
+}
+
+
+
+.doctors__title {
+    margin: 17px 0 5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #424242;
+}
+
+.doctors__info {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    color: #1C1E23;
+    opacity: 0.8;
+}

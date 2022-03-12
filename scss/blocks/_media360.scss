@@ -135,4 +135,125 @@
     font-size: 15px;
     line-height: 17px;
   }
+
+  // doctors section
+
+ .doctors__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 180px;
+}
+
+.doctors__heading {
+
+  font-size: 20px;
+  line-height: 28px;
+
+}
+
+
+.doctors__list__item {
+ margin-bottom: 44px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.doctors__title {
+ margin: 14px 0 12px;
+ font-size: 15px;
+ line-height: 26px;
+}
+
+.doctors__img {
+  max-width: 180px;
+  max-height: 189px;
+}
+
+.doctors__info {
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.doctors__info1 {
+  max-width: 134px;
+  text-align: center;
+}
+
+// review 
+
+
+.reviews__block {
+  max-width: 300px;
+  max-height: 791px;
+  background-color: #ECF9EB;
+  overflow-y: scroll; 
+
+}
+
+.reviews__block::-webkit-scrollbar {
+  width: 12px;
+}
+ 
+.reviews__block::-webkit-scrollbar-track {
+  margin-top: 17px;
+  background: #F0F0F0;
+}
+ 
+.reviews__block::-webkit-scrollbar-thumb {
+  background: #55A630;
+  border-radius: 6px;
+}
+
+
+.reviews__list {
+  padding-top: 26px;
+  padding-left: 28px;
+}
+
+.reviews__list__item {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 56px;
+}
+
+.list__block {
+  margin-right: 10px;
+  text-align: right;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.reviews__heading {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  line-height: 15px;
+}
+
+.reviews__title {
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.reviews__data {
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.reviews__info {
+  max-width: 550px;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.reviews__link {
+  padding: 15px 37px;
+  font-size: 18px;
+  line-height: 16px;
+  transform: translateX(12px) translateY(-550px);
+}
+
+
   }
